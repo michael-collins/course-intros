@@ -10,11 +10,9 @@ title: Course Introductions
   <li>
     <p>
       <a href="{{ site.url }}/{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a>
-      <button class="copy-button" onclick="copyIframe('{{ site.url }}/{{ post.url }}')">Copy iframe</button>
+      <button class="copy-button" onclick="copyIframe('{{ site.url }}/{{ site.baseurl }}/{{ post.url }}')">Copy iframe</button>
     </p>
   </li>
 {% endfor %}
 </ul>
-site url: {{ site.url }}
-baseurl: {{ site.baseurl }}
 
