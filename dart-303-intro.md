@@ -1,0 +1,12 @@
+Welcome to the DART 303: 3D Studio. My name is Michael Collins, and I'm an Associate Teaching Professor for the Penn State Digital Multimedia Design program. I was a founding faculty member for the program and will be working with you this semester.
+
+My professional and academic background is in illustration, interactive media, graphic design, photography and video production, 3D animation, web, product design, digital fabrication, and New Media exhibition art. My professional network extends into pretty much every creative field touching creative digital production, so if I don't know the answer to a question, I can point you to someone who does. I'm also a long time volunteer for ACM SIGGRAPH, which hosts the SIGRGRAPH conference — the largest computing graphics conference in the world. Please ask me more about SIGGRAPH Student Volunteering if you are looking to break into the 3D field. 
+
+This course should provide you with a solid foundation to build upon your interests in creative production using 3D tools. I have been teaching 3D for over a decade and this tends to be the course I enjoy teaching the most. There can be a fairly steep learning curve technical instruction, and I am here to help you navigate any problems you may have. Please take advantage of my office hours, feedback, and the resources I provide throughout the semester.
+
+I look forward to seeing your work this semester! 
+
+Connect with me on LinkedIn if you haven't already: [https://www.linkedin.com/in/michael-collins-573a775/](https://www.linkedin.com/in/michael-collins-573a775/)
+
+Best,
+Michael
