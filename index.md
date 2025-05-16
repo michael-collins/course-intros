@@ -9,8 +9,8 @@ title: Course Introductions
 {% for post in site.posts %}
   <li>
     <p>
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-      <button class="copy-button" onclick="copyIframe('{{ site.url }}/{{ site.baseurl }}{{ post.url }}')">Copy iframe</button>
+      <a href="{{ site.url }}/{{ post.url }}">{{ post.title }}</a>
+      <button class="copy-button" onclick="copyIframe('{{ site.url }}/{{ post.url }}')">Copy iframe</button>
     </p>
   </li>
 {% endfor %}
