@@ -5,6 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DART 303: 3D Studio Introduction</title>
     <style>
+        .copy-button {
+            background: #0066cc;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            margin-left: 10px;
+        }
+        .copy-button:hover {
+            background: #0052a3;
+        }
+        .copy-button.copied {
+            background: #28a745;
+        }
+    </style>
+    <script>
+        function copyIframe(url) {
+            const iframe = `<iframe src="${url}" width="100%" height="600px" frameborder="0"></iframe>`;
+            navigator.clipboard.writeText(iframe).then(() => {
+                const button = event.target;
+                button.textContent = 'Copied!';
+                button.classList.add('copied');
+                setTimeout(() => {
+                    button.textContent = 'Copy iframe';
+                    button.classList.remove('copied');
+                }, 2000);
+            });
+        }
+    </script>
+    <style>
         body {
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
             line-height: 1.6;
