@@ -2,6 +2,7 @@ title: Course Intros
 description: Course introduction pages
 baseurl: ""
 url: ""
+future: true
 
 # Build settings
 markdown: kramdown
