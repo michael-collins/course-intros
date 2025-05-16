@@ -1,0 +1,17 @@
+title: Course Intros
+description: Course introduction pages
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-seo-tag
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
